@@ -86,6 +86,7 @@ button {
     font-size:3vmax;
     transition: scale 0.2s;
     border-color:#15181c;
+    color:#15181c;
 }
 button:hover {
     opacity:75%;
