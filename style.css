@@ -1,0 +1,120 @@
+body {
+    background-color: #15181c;
+    padding:0px;
+    margin:0px;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+.body {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height:70vh;
+    min-height:500px;
+    padding:10px;
+    margin-top:10vh;
+}
+.calculator {
+    width:550px;
+    min-width: 300px;
+    background-color: grey;
+    border-radius: 15px;
+    padding:20px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.display {
+    background-color: whitesmoke;
+    width: 100%;
+    border-radius: 15px;
+    text-align:end;
+    overflow-wrap:break-word;
+    min-height:9vh;
+    
+}
+.afterdisplay {
+    margin-top:5px;
+    padding: 5px 10px;
+    font-size: 2vmax;
+}
+.currentdisplay {
+    padding: 0px 10px;
+    font-size: 3vmax;
+    margin-bottom: 10px;
+}
+.buttongrid {
+    margin-top: 25px;
+    width:100%;
+    margin-bottom:15px;
+}
+.delbuttons {
+    display:grid;
+    grid-template-columns: auto auto;
+    grid-gap:10px;
+}
+.clear {
+    border-radius:15px;
+    border-style: none;
+    padding: 15px 0px;
+    font-size:3vmax;
+}
+.delete {
+    border-radius:15px;
+    border-style: none;
+    padding: 15px 0px;
+    font-size: 3vmax;
+}
+.operbuttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    margin-top:10px;
+}
+.b {
+    border-radius:15px;
+    border-style: none;
+    padding: 10px 5px;
+}
+button {
+    font-size:3vmax;
+}
+
+.footer {
+    position:fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height:7vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color: #282c34;
+    opacity:75%;
+}
+img {
+    width:5vh;
+    height:5vh;
+    transition: transform .7s ease-in-out;
+}
+a {
+    font-size:2vh;
+    color:whitesmoke;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+h1 {
+    color: #15181c;
+    font-size:3vmax;
+    margin:0px;
+}
+h2 {
+    font-family:sans-serif;
+    color:whitesmoke; 
+    font-size:5vmax;
+    margin:0px;
+}
+img:hover {
+    transform: rotate(360deg);
+}
