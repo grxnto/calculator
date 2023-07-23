@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;500&display=swap');
 body {
     background-color: #15181c;
     padding:0px;
@@ -35,11 +36,11 @@ body {
 }
 .afterdisplay {
     margin-top:5px;
-    padding: 5px 10px;
+    padding: 5px 12px;
     font-size: 2vmax;
 }
 .currentdisplay {
-    padding: 0px 10px;
+    padding: 0px 12px;
     font-size: 3vmax;
     margin-bottom: 10px;
 }
@@ -52,18 +53,21 @@ body {
     display:grid;
     grid-template-columns: auto auto;
     grid-gap:10px;
+    font-family:sans-serif;
 }
 .clear {
     border-radius:15px;
-    border-style: none;
+    border-style: solid;
     padding: 15px 0px;
     font-size:3vmax;
+    background-color:rgb(107, 107, 231);
 }
 .delete {
     border-radius:15px;
-    border-style: none;
+    border-style: solid;
     padding: 15px 0px;
     font-size: 3vmax;
+    background-color:rgb(236, 98, 98);
 }
 .operbuttons {
     display: grid;
@@ -73,13 +77,19 @@ body {
 }
 .b {
     border-radius:15px;
-    border-style: none;
+    border-style: solid;
     padding: 10px 5px;
+    font-family: JetBrains Mono, monospace;
 }
 button {
     font-size:3vmax;
+    transition: scale 0.2s;
+    border-color:#15181c;
 }
-
+button:hover {
+    opacity:75%;
+    scale:95%;
+}
 .footer {
     position:fixed;
     left: 0;
